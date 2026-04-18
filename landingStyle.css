@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+
+}
+
+header {
+    background-color: #152b4d;
+    color: rgb(255, 255, 255);
+    padding: 5px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+
+}
+
+.menu {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.intro {
+    height: 90vh;
+    background: url('image.png') no-repeat center center/cover;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    flex-direction: column;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #f6ff00;
+    font-weight: bold;
+}
+
+.intro p {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(224, 12, 12);
+    color: #f6f6f6;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+ .aboutMe{
+    padding: 20px;
+    text-align: center;
+}
+.skills{
+    padding: 5px;
+    text-align: center;
+}
+.contact{
+    padding: 5px;
+    text-align: center;
+}
+.skills ul {
+    list-style: none;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #e2e6b4;
+    border-radius: 5px;
+}
+
+.contact p {
+    margin: 2px 0;
+    text-align: center;
+    justify-content: center;
+
+}
+
+footer {
+    background-color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.aboutMe {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.aboutMe p {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
